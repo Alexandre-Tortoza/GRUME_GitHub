@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUME – Grupo de Pesquisa Música e Expertise</title>
+    <!-- Imports -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/index.js"></script>
+    <script src="../js/ensinoDeMusica.js"></script>
+    <!-- ------- -->
+</head>
+<body id="ensinoMusica">
+    <div id="navMobile"></div>
+    <header>
+        <a href="../index.html">
+            <h1>GRUME <span>- UFPR</span></h1>
+        </a>
+        <nav id="navDesk">
+            <a href="./daniloRamos.html">Professor Danilo Ramos</a>
+            <a href="./pesquisaIntro.html">Pesquisa</a>
+            <a href="./artistico.html">Artístico </a>
+            <a id="nav-active" href="./ensinoDeMusicaIntro.html">Ensino e Extensão</a>
+            <a href="./infraestrutura.html">Infraestrutura </a>
+        </nav>
+        <div id="menuMobile">
+            <img onclick="openMenuMobile(1)" src="../imagens/icons/menu.svg" alt="Menu Nav">
+        </div>
+    </header>
+    <br>
+    <main id="ensinoMusica">
+
+        <div class="ensinoMusica__Intro">
+            <h2>Ensino e Extensão</h2>
+            <p>Nesta página você poderá ter acesso aos programas e materiais utilizados em todas as disciplinas ministradas pelo professor Danilo Ramos junto aos cursos de graduação e pós-graduação em música da UFPR. Além disso, você poderá ter acesso aos programas e materiais dos projetos de extensão ministrados pelos membros do GRUME.</p>
+        </div>
+
+        <br>
+
+
+
+
+        <div class="ensino">
+            <div class="ensino__buttons">
+                <button id="bnt__disciplina" onclick="changeEnsino(0)">Disciplinas Ministradas</button>
+                <button id="bnt__videos" onclick="changeEnsino(1)">videos</button>
+                <button id="bnt__curiosidades" onclick="changeEnsino(2)">curiosidades</button>                
+            </div>
+            <br>
+            <div id="ensino__container">
+
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+</html>
+

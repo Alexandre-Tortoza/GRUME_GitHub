@@ -1,0 +1,104 @@
+/* -------------------------------------------------------------- */
+/*                             INTRO                             */
+.ensinoMusica__Intro{
+    width: 50%;
+    margin: auto;
+}
+.ensinoMusica__Intro > h2{
+    text-align: center;
+}
+.ensinoMusica__Intro > p{
+    text-align: justify;
+
+    
+}
+
+@media only screen and (max-width: 768px){
+    .ensinoMusica__Intro{
+        margin-top: 8rem;
+        width: 80%;
+    }
+    .ensinoMusica__Intro > h2{
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+}
+    
+
+/* -------------------------------------------------------------- */
+/*                        CONTENT - NAV                          */
+
+.ensino{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ensino__buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+}
+
+.ensino__buttons button{
+    color: var(--whitePiano);
+    background: none;
+    outline: none;
+    padding: 1rem 2rem;
+    border: 1px solid var(--accent);
+    width: 100%;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px){
+    .ensino__buttons{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+/* -------------------------------------------------------------- */
+/*                           CONTENT                             */
+
+.disciplinas{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.DisciplinaDoc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    border: 1px solid var(--accent);
+    padding: 1rem;
+    text-align: center;
+    width: 25%;
+    height: 10rem;
+}
+
+.DisciplinaDoc > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.DisciplinaDoc > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+    .disciplinas{
+        flex-direction: column;
+    }
+    .DisciplinaDoc{
+        width: 80%;
+        padding: 1.8rem;
+    }
+}

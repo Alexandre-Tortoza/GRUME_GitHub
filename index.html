@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUME – Grupo de Pesquisa Música e Expertise</title>
+    <!-- Imports -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <!-- ------- -->
+</head>
+<body>
+
+    <div id="navMobile"></div>
+    <header>
+        <a href=".">
+            <h1>GRUME <span>- UFPR</span></h1>
+        </a>
+        <nav id="navDesk">
+            <a href="pages/daniloRamos.html">Professor Danilo Ramos</a>
+            <a href="pages/pesquisaIntro.html">Pesquisa</a>
+            <a href="pages/artistico.html">Artístico </a>
+            <a href="pages/ensinoDeMusicaIntro.html">Ensino e Extensão</a>
+            <a href="pages/infraestrutura.html">Infraestrutura </a>
+        </nav>
+        <div id="menuMobile">
+            <img onclick="openMenuMobile(0)" src="imagens/icons/menu.svg" alt="Menu Nav">
+        </div>
+    </header>
+    <br>
+    <main id="landing">
+        <div class="quemSomos">
+            <div>
+                <h2>Quem somos ?</h2>
+                <p>O GRUME é um grupo de pesquisa que se propõe a investigar porquê e como alguns
+                    pianistas brasileiros desenvolveram altas habilidades na prática do piano ao longo de
+                    suas vidas.
+                </p>    
+                <br>
+                <h3>Missão</h3>
+                <p>Nossa missão é formar músicos-pesquisadores em nível de excelência no campo da
+                    performance e da expertise musical.</p>
+                <br>
+                <h3>Visão</h3>
+                <p>Nossa visão é ser uma referência no Brasil e no mundo em relação à produção do
+                    conhecimento científico e artístico sobre o desenvolvimento de altas habilidades na
+                    prática do piano brasileiro.</p>
+                    <br>
+                <h3>Valores</h3>
+                <ul class="valores__list">
+                    <li>Pela excelência acadêmica, por meio da publicação de nossas pesquisas nos principais periódicos científicos no campo da cognição musical</li>
+                    <li>Pela excelência artística, por meio da aplicação direta de todo o conhecimento científicoadquirido em nossas próprias práticas musicais</li>
+                    <li>Pela ética institucional, a partir do desenvolvimento de relações humanas saudáveis entre osmembros da equipe, sempre baseadas na gentileza, no respeito e no espírito colaborativo</li>
+                    <li>Pelo planejamento estratégico, de modo a tornar o percurso acadêmico da iniciação científica,do mestrado e do doutorado em algo seguro, progressivo (passo a passo) e realmente prazeroso!</li>
+                    <li>Pelo crescimento pessoal do estudante, já que aplicamos em nossa vida real todo oconhecimento científico adquirido por meio do estudo das teorias da expertise</li>
+                </ul>
+
+            </div>
+            <img  src="imagens/fotoGrumePrinc.png" alt="Foto do Grupo" width="570" height="325">
+        </div>
+        <br>
+        <div class="encontrosEProjeto">
+            <div>
+                <h2>Nossos Encontros</h2>
+                <p>Eles ocorrem semanalmente às terças-feiras, das 13h30 às 15h30 (horário de Brasília), na Sala 208 do Departamento de Artes da UFPR. A depender da demanda, nossos encontros também poderão ser transmitidos online. Neles, as atividades desenvolvidas geralmente envolvem, seminários com leituras e discussões sobre textos-referência de interesse para nosso projeto de pesquisa guarda-chuva, palestras oferecidas pelo professor Danilo Ramos (líder do GRUME), por professores da UFPR ou por docentes de outras instituições de ensino superior do Brasil e da América Latina, apresentações orais de nossos estudantes sobre suas próprias investigações, seguidas de ricos debates.</p>
+            </div>
+            <div>
+                <h2>Projeto Guarda-Chuva:</h2>
+                <p>Caso você tenha o interesse de investigar a psicologia da expertise do pianista popular brasileiro, seja em nível de graduação (por meio de uma iniciação científica), de pós-graduação (por meio de um curso de mestrado ou doutorado) ou mesmo se pretende fazer um estágio pós-doutoral, por favor, faça o download do nosso projeto clicando no link abaixo, logo em seguida, escreva um e-mail para daniloramosufpr@gmail.com, demonstrando o seu interesse em participar com um plano de trabalho a ser inserido dentro de nosso projeto guarda-chuva.</p>
+                <br>
+                <!-- <a href="assets/guardaChuva.pdf" download id="projetoDownload" >Leia nosso projeto</a> -->
+                <a id="projetoDownload">Em fase de elaboração</a>
+            </div>
+        </div>
+        <br>
+        <div class="contato">
+            <div class="contato__container">
+                <form id="contatoForm">
+                    <input type="text" placeholder="Nome" name="name" id="contatoName">
+                    <input type="text" placeholder="Email" name="email" id="contatoMail">
+                    <textarea name="mensage" rows="5" placeholder="Escreva uma mensagem para o Professor" name="mensage" id="contatoMensage" ></textarea>
+                    <button type="button" onclick="sendEmail()" id="contatoButton">Enviar</button>
+                </form>
+                <div>
+                    <h3>Contate tambem nossos estudantes-membros</h3>
+                    <br>
+                    <p>Os e-mails de todos eles podem ser encontrados na seção de pesquisa Eles são motivados a lhe contar sobre suas respectivas pesquisas.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
