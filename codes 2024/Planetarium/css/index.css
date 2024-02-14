@@ -1,0 +1,82 @@
+/* Header */
+
+    header{
+        height: 160px;
+        padding: 0 32px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow:-6px 0px 20px 20px #00000057;
+    }
+    header h1{
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 40px;
+    }
+    header h1 span{
+        font-size: 30px;
+    }
+    header nav {
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+    }
+    header nav a{
+        color: black;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    #headerLogo{
+        display: flex;
+    }
+    #headerLogo img{
+        max-height: 100px;
+    }
+/* Header - Mod */
+    #navigation-active{
+        color: var(--azulCeleste);
+    }
+/* Header - Mobile */
+/* ------ */
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+/* Main */
+.hook{
+    z-index: -1;
+    position: relative;
+    color: var(--branco);
+}
+.hook > div > img{
+    width: 100%;
+}
+.hook__content{
+    position: absolute;
+    top: 10%;
+    padding: 0 2rem;
+}
+.hook__content > h2 > span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height:1px;
+}
+
+
+
+
+
+
+
+
+
+/* Main - Mod */
+/* Main - Mobile */
+/* ---- */
+
+
+
